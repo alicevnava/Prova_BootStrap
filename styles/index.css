@@ -1,0 +1,62 @@
+/* --indigo-dye: #1b4965ff;
+--light-sky-blue: #a1cdf4ff;
+--caf-noir: #573d1cff;
+--earth-yellow: #d9ae61ff;
+--cornsilk: #f6f1d1ff; */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --indigo:  #1b4965ff;
+    --lightblue: #a1cdf4ff;
+    --coffe: #573d1cff;
+    --yellow: #d9ae61ff;
+    --silk: #f6f1d1ff;
+    --beige: #faedcd;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    background-color: var(--yellow);
+}
+
+
+/* header */
+header{
+    width: 100%;
+    height: 40px;
+    background-color: var(--yellow);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--coffe);
+    font-weight: bold;
+
+
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+
+}
+
+header li {
+    margin-top: 7px;
+}
+
+#logo {
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+    margin-bottom: none
+}

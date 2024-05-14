@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonjour Boulangerie</title>
+    <link rel="stylesheet" href="styles/franchise.css">
+    <link rel="shortcut icon" href="img/saco-de-cafe.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre Nós</a></li>
+                <li><a href="catalog.html">Cardápio</a></li>
+                <li><a href="franchise.html">Franqueados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Seja um Franqueado</h1>
+        <h3>Dê o primeiro passo</h3>
+        <form action="#" method="get">
+            <p>Nossas lojas estão presentes em Brasília. Junte-se a nós e leve o sabor francês por toda a cidade</p>
+            <label for="name">Nome Completo</label>
+            <br>
+            <input type="text" placeholder="Nome Completo" id="name" required>
+            <br>
+            <label for="email" required>E-mail</label>
+            <br>
+            <input type="email" placeholder="Email" id="email" required>
+            <br>
+            <label for="cellphone">Número para contato</label>
+            <br>
+            <input type="text" placeholder="Celular" id="cellphone" required>
+            <br>
+            <label for="city">Cidade de Interesse</label>
+            <br>
+            <input type="text" placeholder="Cidade" id="city" required>
+            <br>
+            <label for="investment">Valor disponível</label>
+            <br>
+            <select name="investment" id="investment" required>
+                <option value="1">Menos de R$100 mil</option>
+                <option value="2">Entre R$100 e R$200 mil</option>
+                <option value="3">Entre R$200 e R$300 mil</option>
+                <option value="4">Entre R$300 e R$400 mil</option>
+                <option value="5">Mais que R$400 mil</option>
+            </select>
+            <br>
+            <p>Ao enviar, você permite que Conglomerado Bonjour armazene e processe os dados pessoais preenchidos para a finalidade informada.</p>
+            <br>
+            <button type="submit">Enviar Dados</button>
+        </form>
+    </main>
+    <footer>
+        Todos os direitos reservados a Conglomerado Bonjour ©
+    </footer>
+</body>
+</html>
