@@ -18,7 +18,9 @@ footer{
     height: 25px;
     text-align: center;
     background-color: var(--yellow);
-    margin-top: 200px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     padding: 5px;
 }
 
@@ -53,18 +55,23 @@ header li {
 /* about us */
 #about {
     display: flex;
-    gap: 20px;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 5%;  
 }
 
 h1{
     text-align: center;
-    padding-top: 15px;
+    padding-top: 50px;
     color: var(--coffe);
 }
 
 #abouttitle {
     color: var(--indigo);
     text-align: center;
+}
+
+.card {
+
+        width: 18rem;
+        margin: 0 10px;
 }

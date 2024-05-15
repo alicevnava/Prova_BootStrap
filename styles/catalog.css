@@ -18,7 +18,9 @@ footer{
     height: 45px;
     text-align: center;
     background-color: var(--yellow);
-    margin-top: 200px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     padding: 5px;
 }
 
@@ -101,4 +103,17 @@ header li {
 h1 {
     text-align: center;
     padding-top: 30px;
+    color: var(--coffe);
+}
+
+#menu h5, h6 {
+    color: var(--indigo);
+
+}
+
+/* responsividade */
+@media (max-width: 860px) {
+    .itens {
+        margin-bottom: 20px; /* Espaçamento entre os itens */
+    }
 }

@@ -24,6 +24,9 @@ footer{
     height: 25px;
     text-align: center;
     background-color: var(--yellow);
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 
@@ -60,3 +63,37 @@ header li {
     margin-left: 20px;
     margin-bottom: none
 }
+
+
+/* carrossel */
+.minha-imagem {
+    width: 70%;
+    height: 500px;
+}
+
+#carouselExampleSlidesOnly {
+    margin-top: 70px;
+    margin-left: 400px;
+    
+}
+
+
+/* resposnividade */
+@media (max-width: 860px) {
+    #carouselExampleSlidesOnly {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 50px auto;
+    }
+
+    .carousel-inner {
+        max-width: 800px; 
+        width: 100%;
+    }
+
+    .carousel-item img {
+        width: 100%; 
+    }
+}
+
