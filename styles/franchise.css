@@ -12,6 +12,21 @@
     --beige: #faedcd;
 }
 
+/* fontes */
+@font-face {
+    font-family: "title";
+    src: url(../fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+@font-face {
+    font-family: "main";
+    src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "nav";
+    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+
 /* footer */
 footer{
     width: 100%;
@@ -22,6 +37,8 @@ footer{
     left: 0;
     bottom: 0;
     padding: 5px;
+    font-family: "nav";
+    font-size: 13px;
 }
 
 
@@ -29,6 +46,8 @@ footer{
 header{
     width: 100%;
     height: 40px;
+    font-family: "nav";
+    font-size: 15px; 
     background-color: var(--yellow);
 }
 
@@ -36,8 +55,10 @@ header a {
     text-decoration: none;
     color: var(--coffe);
     font-weight: bold;
+}
 
-
+header a:hover {
+    color: var(--lightblue)
 }
 
 header ul {
@@ -63,20 +84,22 @@ body{
     background-color:var(--beige);
 }
  
-h1, h3, p{
+h1, h3{
     text-align: center;
     margin-top: 15px;
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
-}
-
-h3 {
+    color: var(--coffe);
     margin-bottom: 10px;
+    font-family: "title";
+    padding-top: 10px;
 }
 
 p{
     font-size: 13px;
     margin-bottom: 5px;
     margin-top: 12px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: "main";
 }
 
 
@@ -99,6 +122,7 @@ form {
 
 label {
     padding: 5px;
+    font-family: "main";
 
 }
 input, select{
@@ -108,6 +132,7 @@ input, select{
     border: 2px solid var(--lightblue);
     text-align: center;
     color: var(--coffe);
+    font-family: "main";
 }
 
 button{

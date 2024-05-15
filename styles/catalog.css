@@ -11,6 +11,20 @@
     --silk: rgb(253, 250, 229);
     --beige: #faedcd;
 }
+/* fontes */
+@font-face {
+    font-family: "title";
+    src: url(../fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+@font-face {
+    font-family: "main";
+    src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "nav";
+    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
 
 /* footer */
 footer{
@@ -22,6 +36,8 @@ footer{
     left: 0;
     bottom: 0;
     padding: 5px;
+    font-family: "nav";
+    font-size: 13px;
 }
 
 
@@ -30,14 +46,18 @@ header{
     width: 100%;
     height: 40px;
     background-color: var(--yellow);
+    font-family: "nav";
+    font-size: 15px; 
 }
 
 header a {
     text-decoration: none;
     color: var(--coffe);
     font-weight: bold;
+}
 
-
+header a:hover {
+    color: var(--lightblue)
 }
 
 header ul {
@@ -46,10 +66,6 @@ header ul {
     list-style: none;
     justify-content: center;
 
-}
-
-header li {
-    margin-top: 7px;
 }
 
 /* itens do menu */
@@ -104,13 +120,30 @@ h1 {
     text-align: center;
     padding-top: 30px;
     color: var(--coffe);
+    font-family: "title";
+    padding-bottom: 50px;
 }
 
-#menu h5, h6 {
+.french, .portugues {
     color: var(--indigo);
-
+    font-family: "main";
 }
 
+/* modal */
+.modal-header {
+    color: var(--coffe);
+    font-family: "main";
+}
+
+.modal-body {
+    color: var(--indigo);
+    font-family: "nav";
+}
+
+.modal-content {
+    background-color: red;
+    margin-top: 50%;
+}
 /* responsividade */
 @media (max-width: 860px) {
     .itens {
